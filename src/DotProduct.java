@@ -13,4 +13,11 @@ public class DotProduct {
         double dot = AB[0] * BC[0] + AB[1] * BC[1];
         return dot;
 	}
+	
+	public static void main(String[] args) {
+		double[] A = {0,0};
+		double[] B = {1,1};
+		double[] C = {1,0};
+		System.out.print(DotProduct.dot(A, B, C));
+	}
 }

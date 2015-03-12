@@ -13,4 +13,12 @@ public class LinePointDistance {
         }
         return Math.abs(dist);
 	}
+	
+	public static void main(String[] args) {
+		double[] A = {2,0};
+		double[] B = {1,0};
+		double[] C = {0,1};
+		System.out.println(LinePointDistance.linePointDist(A, B, C, false));
+		System.out.println(LinePointDistance.linePointDist(A, B, C, true));
+	}
 }

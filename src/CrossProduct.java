@@ -12,4 +12,11 @@ public class CrossProduct {
         double cross = AB[0] * AC[1] - AB[1] * AC[0];
         return cross;
 	}
+	
+	public static void main(String[] args) {
+		double[] A = {0,0};
+		double[] B = {1,0};
+		double[] C = {0,1};
+		System.out.print(CrossProduct.cross(A, B, C));
+	}
 }
