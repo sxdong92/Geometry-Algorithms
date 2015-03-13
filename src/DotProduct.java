@@ -1,6 +1,19 @@
-
+/**
+ * 
+ * @author sxd
+ * @version 1.0
+ * @see Test
+ *
+ */
 public class DotProduct {
 	
+	/**
+	 * 
+	 * @param A 点A
+	 * @param B 共点B
+	 * @param C 点C
+	 * @return 返回double型变量
+	 */
 	//Compute the dot product AB·BC
 	//A, B, C are points, expressed by int array with two elements. i.e. int[] A = {1,1};
 	public static double dot(double[] A, double[] B, double[] C) {
